@@ -1,0 +1,183 @@
+
+/* ------------------------------------------- TAG ELEMENT --------------------------------------------- */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Merriweather', serif;
+    text-align: center;
+}
+
+hr{
+    border: #D5CEA3 dotted 8px;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+
+    width: 5%;
+    margin: 10px auto;
+}
+
+
+h1{
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+
+    margin-top: 20px;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: hsla(18, 28%, 18%, 0.564);
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #3C2A21;
+}
+
+a{
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+/* ------------------------------------------- CLASS ELEMENT --------------------------------------------- */
+
+.top-container{
+    background-color: #1A120B;
+    color: #E5E5CB;
+    text-align: center;
+    padding-top: 150px;
+    position: relative;
+}
+.top-container > h2{
+    color: #E5E5CB;
+}
+
+
+.bottom-cloud{
+    margin-top: 50px;
+    position: absolute;
+    left: 500px;
+}
+.top-cloud{
+    position: absolute;
+    right: 500px;
+    top: 80px;
+}
+
+.mountain{
+    margin-top: 100px;
+}
+
+/* ************** Middle Container ********************* */
+
+.middle-container{
+   background-color: #E5E5CB;
+}
+
+.middle-container .profile{
+    padding: 100px 0;
+    line-height: 2;
+}
+
+.middle-container .profile img{
+    width: 15%;
+    border-radius: 50%;
+}
+
+.middle-container .profile p{
+    color: grey;
+    width: 25%;
+    margin: 20px auto auto auto;
+
+}
+.middle-container .skills{
+    padding: 100px 0;
+}
+.middle-container .skill-row{
+    width: 50%;
+    margin: 150px auto 50px auto;
+    text-align: left;
+    line-height: 2;
+    color: gray;
+}
+.middle-container .skill-row img{
+    width: 25%;
+    margin-top: -40px;
+}
+.middle-container .skill-row .skill-img1{
+    float: left;
+    margin-right: 40px;
+}
+.middle-container .skill-row .skill-img2{
+    float: right;
+    margin-left: 40px;
+}
+.middle-container .skill-row h3{
+    line-height: 3;
+}
+.middle-container .contact-me{
+    padding: 100px;
+    line-height: 2;
+}
+.middle-container .contact-me .btn{
+    color: #3C2A21;
+    font-weight: bold;
+    text-decoration: none;
+
+    background-color: #E5E5CB;
+    padding: 25px 50px;
+    margin-top: 50px;
+    display: inline-block;
+
+    border: 1px solid #3C2A21;
+
+    transition: all .2s ease-in-out;
+}
+
+.middle-container .contact-me .btn:hover{
+    background-color: #3C2A21;
+    border-color: #3C2A21;
+
+    color: #E5E5CB;
+}
+.middle-container .contact-me p{
+    color: grey;
+}
+
+
+/* ************** Bottom Container ********************* */
+
+.bottom-container{  
+    font-size: .8rem;
+    line-height: 2;
+    background-color: #D5CEA3;
+    padding: 30px 0 ;
+}
+
+.bottom-container .footer-link{
+    display: inline-block;
+    margin: 10px;
+
+    color: #3C2A21;
+    text-decoration: none;  
+    font-size: 1rem;
+
+    opacity: .45;
+    transition: all .2s ease-out;
+}
+.bottom-container .footer-link:hover{
+    opacity: 1;
+    
+}
+
+.bottom-container p{
+    /* margin-top: 15px; */
+    color: #fff6e4;
+}
